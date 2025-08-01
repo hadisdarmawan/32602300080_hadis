@@ -1,0 +1,282 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .profile-card {
+    min-width: 0;
+    max-width: 98vw;
+    width: 100%;
+    padding: 12px 2vw 12px 2vw;
+  }
+  .main-bg {
+    padding: 0;
+  }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f3f0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 18px 0 10px 0;
+}
+
+.navbar-desktop {
+    background: #007bff;
+    padding: 0 0 0 24px;
+}
+
+.navbar-desktop ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-desktop li {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.main-bg {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f3f0;
+}
+
+.profile-card {
+    background: #fff6f2;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 32px 40px 24px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 340px;
+    max-width: 400px;
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 18px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #333;
+    font-size: 1.08rem;
+}
+
+.profile-sosmed {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.icon-sosmed {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(0.2) brightness(0.8);
+    transition: filter 0.2s;
+}
+
+.icon-sosmed:hover {
+    filter: none;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 32px;
+    font-size: 1rem;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container-fluid {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1060px;
+    padding: 20px;
+} 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .profile-card {
+    min-width: 0;
+    max-width: 98vw;
+    width: 100%;
+    padding: 12px 2vw 12px 2vw;
+  }
+  .main-bg {
+    padding: 0;
+  }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f3f0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 18px 0 10px 0;
+}
+
+.navbar-desktop {
+    background: #007bff;
+    padding: 0 0 0 24px;
+}
+
+.navbar-desktop ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-desktop li {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.main-bg {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f3f0;
+}
+
+.profile-card {
+    background: #fff6f2;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 32px 40px 24px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 340px;
+    max-width: 400px;
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 18px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #333;
+    font-size: 1.08rem;
+}
+
+.profile-sosmed {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.icon-sosmed {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(0.2) brightness(0.8);
+    transition: filter 0.2s;
+}
+
+.icon-sosmed:hover {
+    filter: none;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 32px;
+    font-size: 1rem;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container-fluid {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1060px;
+    padding: 20px;
+} 
